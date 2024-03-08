@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\migrations\\20240307153019_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:migrations\\20240307153019_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\migrations\\20240307154953_dateaddedtoplayerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:migrations\\20240307154953_dateaddedtoplayerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\db\\iverbirddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:db\\iverbirddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\db\\iverbirdplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:db\\iverbirdplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\iverminiapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:iverminiapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240307153019_init.cs",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Migrations\\20240307153019_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240307153019_init.cs",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Migrations\\20240307153019_init.cs",
+              "RelativeToolTip": "Migrations\\20240307153019_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T15:53:12.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240307154953_dateAddedToPlayerObject.cs",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Migrations\\20240307154953_dateAddedToPlayerObject.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240307154953_dateAddedToPlayerObject.cs",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Migrations\\20240307154953_dateAddedToPlayerObject.cs",
+              "RelativeToolTip": "Migrations\\20240307154953_dateAddedToPlayerObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T15:49:53.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IverMiniApi",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\IverMiniApi.csproj",
+              "RelativeDocumentMoniker": "IverMiniApi.csproj",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\IverMiniApi.csproj",
+              "RelativeToolTip": "IverMiniApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-07T15:36:34.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-07T15:36:31.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IverBirdPlayers.cs",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\DB\\IverBirdPlayers.cs",
+              "RelativeDocumentMoniker": "DB\\IverBirdPlayers.cs",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\DB\\IverBirdPlayers.cs",
+              "RelativeToolTip": "DB\\IverBirdPlayers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T15:02:44.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IverBirdDbContext.cs",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\DB\\IverBirdDbContext.cs",
+              "RelativeDocumentMoniker": "DB\\IverBirdDbContext.cs",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\DB\\IverBirdDbContext.cs",
+              "RelativeToolTip": "DB\\IverBirdDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T15:00:56.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T09:37:13.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
