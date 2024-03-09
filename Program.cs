@@ -1,16 +1,19 @@
 using IverMiniApi.DB;
 using IverMiniApi.Models;
 using IverMiniApi.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 //Service registration starts here
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<IDbConnectionFactory, MsSqlDbConnectionFactory>(sp => new MsSqlDbConnectionFactory(builder.Configuration.GetValue<string>("ConnectionStrings:IverBirdDb")));
-
-builder.Services.AddSingleton<DatabaseInitializer>();
-
-builder.Services.AddSingleton<IIverBirdLeaderboardService, IverBirdLeaderboardService>();
+builder.Services.AddDbContext<DataContext>(options =>
+{
+    options.UseSqlServer("IverBirdLeaderboard");
+});
+builder.Services.AddScoped<IIverBirdLeaderboardService, IverBirdLeaderboardService>();
+builder.Services.AddScoped<IverBirdLeaderboard>();
 
 
 
@@ -20,17 +23,13 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.MapPost("leaderboard", async (IIverBirdLeaderboardService service, IverBirdLeaderboard playerAndScore) =>
+app.MapGet("/", () => "Hello World!");
+app.MapGet("/api/leaderboard", async (DataContext context) =>
 {
-    var created = await service.AddScoreAsync(playerAndScore);
-    if (!created)
-    {
-        return Results.BadRequest();
-    }
-    return Results.Created($"/api/leaderboard/{playerAndScore.Name}", playerAndScore);
+    var leaderboardService = new IverBirdLeaderboardService(context);
+    return await leaderboardService.GetAllPlayerScoresAsync();
 });
 
-var databaseInitializer = app.Services.GetRequiredService<DatabaseInitializer>();
-await databaseInitializer.InitializeAsync();
+
 //Middleware registration and Configuration ends here
 app.Run();

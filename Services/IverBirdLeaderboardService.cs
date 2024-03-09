@@ -2,36 +2,33 @@
 using Dapper;
 using System.Data;
 using IverMiniApi.DB;
-
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace IverMiniApi.Services
 {
     public class IverBirdLeaderboardService : IIverBirdLeaderboardService
     {
-        private readonly IDbConnectionFactory _dbConnectionFactory;
-
-        public IverBirdLeaderboardService(IDbConnectionFactory dbConnectionFactory)
+        private readonly DataContext _context;
+        public IverBirdLeaderboardService(DataContext context)
         {
-            _dbConnectionFactory = dbConnectionFactory;
+            _context = context;
         }
 
-        public async Task<bool> AddScoreAsync(IverBirdLeaderboard playerAndScore)
-        { 
-            using var connection = await _dbConnectionFactory.CreateConnectionAsync();
-            var result = await connection.ExecuteAsync(
-                               @"INSERT INTO IverBirdLeaderboard (Name, Score, CreatedAt) VALUES (@Name, @Score, @CreatedAt)",
-                                              new { Name = playerAndScore.Name, Score = playerAndScore.Score, CreatedAt = DateTime.Now }
-                                                         );
-            return result > 0;
+        public Task<bool> AddScoreAsync(IverBirdLeaderboard playerAndScore)
+        {
+            throw new NotImplementedException();
         }
+
         public Task<bool> DeletePlayerAsync(string name)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<IverBirdLeaderboard>> GetAllPlayerScoresAsync()
+        public async Task<IEnumerable<IverBirdLeaderboard>> GetAllPlayerScoresAsync()
         {
-            throw new NotImplementedException();
+            var players = await _context.IverBirdLeaderboard.ToListAsync();
+            return players;
         }
 
         public Task<IverBirdLeaderboard?> GetPlayerByNameAsync(string name)
