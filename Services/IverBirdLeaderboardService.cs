@@ -29,9 +29,11 @@ namespace IverMiniApi.Services
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<IverBirdLeaderboard>> GetAllPlayerScoresAsync()
+        public async Task<IEnumerable<IverBirdLeaderboard>> GetLeaderboardAsync()
         {
-            throw new NotImplementedException();
+            using var connection = await _dbConnectionFactory.CreateConnectionAsync();
+            return await connection.QueryAsync<IverBirdLeaderboard>("SELECT * FROM IverBirdLeaderboard ORDER BY Score DESC");
+
         }
 
         public Task<IverBirdLeaderboard?> GetPlayerByNameAsync(string name)
