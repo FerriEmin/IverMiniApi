@@ -54,4 +54,4 @@ jobs:
           app-name: 'IverBirdApi'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9EA5EA3FD23F4297A73C57B5CDE0E4AD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_81C56BDAF04E44EAB920994B0B92FE2F }}
