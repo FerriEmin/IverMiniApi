@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IverMiniApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb522284a77dddb3e70af38c58726e75de249135")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3712815853a13451e744615394c22839f7ebd44e")]
 [assembly: System.Reflection.AssemblyProductAttribute("IverMiniApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IverMiniApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
