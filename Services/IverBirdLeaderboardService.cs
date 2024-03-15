@@ -2,33 +2,39 @@
 using Dapper;
 using System.Data;
 using IverMiniApi.DB;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Http.HttpResults;
+
 
 namespace IverMiniApi.Services
 {
     public class IverBirdLeaderboardService : IIverBirdLeaderboardService
     {
-        private readonly DataContext _context;
-        public IverBirdLeaderboardService(DataContext context)
+        private readonly IDbConnectionFactory _dbConnectionFactory;
+
+        public IverBirdLeaderboardService(IDbConnectionFactory dbConnectionFactory)
         {
-            _context = context;
+            _dbConnectionFactory = dbConnectionFactory;
         }
 
-        public Task<bool> AddScoreAsync(IverBirdLeaderboard playerAndScore)
-        {
-            throw new NotImplementedException();
+        public async Task<bool> AddScoreAsync(IverBirdLeaderboard playerAndScore)
+        { 
+            
+            using var connection = await _dbConnectionFactory.CreateConnectionAsync();
+            var result = await connection.ExecuteAsync(
+                               @"INSERT INTO IverBirdLeaderboard (Name, Score, CreatedAt) VALUES (@Name, @Score, @CreatedAt)",
+                                              new { Name = playerAndScore.Name, Score = playerAndScore.Score, CreatedAt = DateTime.Now }
+                                                         );
+            return result > 0;
         }
-
         public Task<bool> DeletePlayerAsync(string name)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<IverBirdLeaderboard>> GetAllPlayerScoresAsync()
+        public async Task<IEnumerable<IverBirdLeaderboard>> GetLeaderboardAsync()
         {
-            var players = await _context.IverBirdLeaderboard.ToListAsync();
-            return players;
+            using var connection = await _dbConnectionFactory.CreateConnectionAsync();
+            return await connection.QueryAsync<IverBirdLeaderboard>("SELECT * FROM IverBirdLeaderboard ORDER BY Score DESC");
+
         }
 
         public Task<IverBirdLeaderboard?> GetPlayerByNameAsync(string name)
