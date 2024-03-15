@@ -3,27 +3,32 @@
   "WorkspaceRootPath": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\db\\mssqldbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:db\\mssqldbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\feremi01\\AppData\\Local\\Temp\\3e9a9c8d-1711-4580-ba89-2ae43ddcd97a_9.13.zip.97a\\rest-api-course-final-master\\Helpers\\Identity.Api\\Controllers\\IdentityController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\iverminiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:iverminiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\db\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:db\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\services\\iverbirdleaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:services\\iverbirdleaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\services\\iiverbirdleaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:services\\iiverbirdleaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\models\\iverbirdleaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:models\\iverbirdleaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\iverminiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|solutionrelative:iverminiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94CC84DE-A90F-4A24-8045-D21D7AA101D0}|IverMiniApi.csproj|c:\\ferris filer\\githubrepos\\azure\\iverapi\\iverminiapi\\validators\\iverbirdleaderboardvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,33 +42,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAcwEYAAAAlAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-09T23:05:02.826Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IdentityController.cs",
-              "DocumentMoniker": "C:\\Users\\feremi01\\AppData\\Local\\Temp\\3e9a9c8d-1711-4580-ba89-2ae43ddcd97a_9.13.zip.97a\\rest-api-course-final-master\\Helpers\\Identity.Api\\Controllers\\IdentityController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\feremi01\\AppData\\Local\\Temp\\3e9a9c8d-1711-4580-ba89-2ae43ddcd97a_9.13.zip.97a\\rest-api-course-final-master\\Helpers\\Identity.Api\\Controllers\\IdentityController.cs",
-              "ToolTip": "C:\\Users\\feremi01\\AppData\\Local\\Temp\\3e9a9c8d-1711-4580-ba89-2ae43ddcd97a_9.13.zip.97a\\rest-api-course-final-master\\Helpers\\Identity.Api\\Controllers\\IdentityController.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\feremi01\\AppData\\Local\\Temp\\3e9a9c8d-1711-4580-ba89-2ae43ddcd97a_9.13.zip.97a\\rest-api-course-final-master\\Helpers\\Identity.Api\\Controllers\\IdentityController.cs [Read Only]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T01:45:52.759Z",
-              "EditorCaption": " [Read Only]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -73,50 +65,14 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAACmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-10T00:20:48.397Z",
+              "WhenOpened": "2024-03-15T09:01:23.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IIverBirdLeaderboardService.cs",
-              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Services\\IIverBirdLeaderboardService.cs",
-              "RelativeDocumentMoniker": "Services\\IIverBirdLeaderboardService.cs",
-              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Services\\IIverBirdLeaderboardService.cs",
-              "RelativeToolTip": "Services\\IIverBirdLeaderboardService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T23:36:50.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IverBirdLeaderboardService.cs",
-              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Services\\IverBirdLeaderboardService.cs",
-              "RelativeDocumentMoniker": "Services\\IverBirdLeaderboardService.cs",
-              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Services\\IverBirdLeaderboardService.cs",
-              "RelativeToolTip": "Services\\IverBirdLeaderboardService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwB8AAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T23:36:25.882Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IverBirdLeaderboardValidator.cs",
-              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Validators\\IverBirdLeaderboardValidator.cs",
-              "RelativeDocumentMoniker": "Validators\\IverBirdLeaderboardValidator.cs",
-              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Validators\\IverBirdLeaderboardValidator.cs",
-              "RelativeToolTip": "Validators\\IverBirdLeaderboardValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T23:27:11.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "IverMiniApi.csproj",
               "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\IverMiniApi.csproj",
               "RelativeDocumentMoniker": "IverMiniApi.csproj",
@@ -124,8 +80,70 @@
               "RelativeToolTip": "IverMiniApi.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-09T23:26:17.567Z",
+              "WhenOpened": "2024-03-11T11:46:08.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IverBirdLeaderboardService.cs",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Services\\IverBirdLeaderboardService.cs",
+              "RelativeDocumentMoniker": "Services\\IverBirdLeaderboardService.cs",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Services\\IverBirdLeaderboardService.cs",
+              "RelativeToolTip": "Services\\IverBirdLeaderboardService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCMAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T11:45:54.314Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MsSqlDbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\DB\\MsSqlDbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "DB\\MsSqlDbConnectionFactory.cs",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\DB\\MsSqlDbConnectionFactory.cs",
+              "RelativeToolTip": "DB\\MsSqlDbConnectionFactory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIA7wBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T08:19:12.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\DB\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "DB\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\DB\\DatabaseInitializer.cs",
+              "RelativeToolTip": "DB\\DatabaseInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T08:19:14.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IverBirdLeaderboard.cs",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Models\\IverBirdLeaderboard.cs",
+              "RelativeDocumentMoniker": "Models\\IverBirdLeaderboard.cs",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Models\\IverBirdLeaderboard.cs",
+              "RelativeToolTip": "Models\\IverBirdLeaderboard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T14:51:39.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IverBirdLeaderboardValidator.cs",
+              "DocumentMoniker": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Validators\\IverBirdLeaderboardValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\IverBirdLeaderboardValidator.cs",
+              "ToolTip": "C:\\Ferris Filer\\GitHubRepos\\Azure\\IverApi\\IverMiniApi\\Validators\\IverBirdLeaderboardValidator.cs",
+              "RelativeToolTip": "Validators\\IverBirdLeaderboardValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T08:40:13.818Z"
             }
           ]
         }

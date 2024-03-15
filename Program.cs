@@ -52,7 +52,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapPost("leaderboard", [Authorize] async (IIverBirdLeaderboardService service, IverBirdLeaderboard playerAndScore,
-    IValidator<IverBirdLeaderboard> validator) =>
+    IValidator<IverBirdLeaderboard> validator) => 
 {
     var validationResult = await validator.ValidateAsync(playerAndScore);
     if (!validationResult.IsValid)

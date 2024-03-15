@@ -17,6 +17,7 @@ namespace IverMiniApi.Services
 
         public async Task<bool> AddScoreAsync(IverBirdLeaderboard playerAndScore)
         { 
+            
             using var connection = await _dbConnectionFactory.CreateConnectionAsync();
             var result = await connection.ExecuteAsync(
                                @"INSERT INTO IverBirdLeaderboard (Name, Score, CreatedAt) VALUES (@Name, @Score, @CreatedAt)",
